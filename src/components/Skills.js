@@ -38,7 +38,7 @@ export const Skills = () => {
                             <h2>
                                 Skill-Set
                             </h2>
-                            <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p2>
+                            <p2>I am in the ay to develop these skills.</p2>
                             <Carousel responsive={responsive} infinite={true} className = "skill-slider">
                                 <div className="item">
                                     <img src={mldev} alt ="Image"/>

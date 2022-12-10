@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -42,13 +43,14 @@ export function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onlick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills"className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onlick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-            <Nav.Link href="#projects"className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onlick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="#project"className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onlick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/mayank-vishwakarma2004/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/CapMayank" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.snapchat.com/add/capmayank?share_id=E_x_6rIEu1A&locale=en-US " target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="mailto:capmayankv.gmail.com" target="_blank"><img src={navIcon4} alt="" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>

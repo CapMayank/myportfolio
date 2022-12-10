@@ -29,12 +29,12 @@ export const Projects = () => {
 
   return (
     <section className="project" id="project">
-      <Container>
+     <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+          <TrackVisibility>
+            {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""} >
                 <h2>Projects</h2>
                 <p>I have build various types of projects of different domains, Some of the projects are displayed below. You can find these projects in my GitHub Repositories.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -73,7 +73,7 @@ export const Projects = () => {
                   </Tab.Content>
                 </Tab.Container>
               </div>}
-            </TrackVisibility>
+              </TrackVisibility>
           </Col>
         </Row>
       </Container>
