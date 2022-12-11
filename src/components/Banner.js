@@ -4,6 +4,10 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
+function connect() {   
+  window.open("https://www.linkedin.com/in/mayank-vishwakarma2004/");  
+  }   
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -58,7 +62,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Mayank Vishwakarma`}  </h1>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Programmer", "AI Enthusiast", "Game Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello I'm Mayank Vishwakarma, a self learning upcoming developer/coder from India. Currently doing B.Tech with CS - AIML branch.  Artificial Intelligence is my main area of self interest that I am pursuing.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => connect()}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

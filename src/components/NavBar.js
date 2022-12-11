@@ -7,6 +7,7 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Resume from '../assets/doc/resume.pdf';
 
 export function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -52,7 +53,8 @@ export function NavBar() {
                 <a href="https://www.snapchat.com/add/capmayank?share_id=E_x_6rIEu1A&locale=en-US " target="_blank"><img src={navIcon3} alt="" /></a>
                 <a href="mailto:capmayankv.gmail.com" target="_blank"><img src={navIcon4} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => window.open(Resume)}><span>Hire me!</span> </button>
+            
           </span>
         </Navbar.Collapse>
       </Container>
