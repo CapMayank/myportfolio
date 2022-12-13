@@ -13,7 +13,7 @@ export const Projects = () => {
       title: "Rock Paper Scissors",
       description: "opencv-Python Project",
       imgUrl: projImg1,
-      projUrl:"https://github.com/CapMayank/Rock_Paper-Scissors",
+      projUrl:"https://github.com/CapMayank/RockPaperScissorCV",
     },
     {
       title: "Resume Builder",
@@ -25,7 +25,7 @@ export const Projects = () => {
       title: "Online Voting System",
       description: "Javascipt, PHP, Mysql",
       imgUrl: projImg3,
-      projUrl:"https://github.com/CapMayank/online-voting-system",
+      projUrl:"http://projectovs.capmayank.com/",
     },
 
   ];
