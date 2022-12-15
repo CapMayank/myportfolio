@@ -61,7 +61,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Mayank Vishwakarma`}  </h1>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Programmer", "AI Enthusiast", "Game Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Hello I'm Mayank Vishwakarma, a self learning upcoming developer/coder from India. Currently doing B.Tech with CS - AIML branch.  Artificial Intelligence is my main area of self interest that I am pursuing.</p>
+                  <p>Hello! I’m Mayank Vishwakarma, a passionate Artifficial Intelligence and Machine Learning specialised computer science student. I have been working on my own projects that combine coding and art.</p>
                   <button onClick={() => connect()}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
